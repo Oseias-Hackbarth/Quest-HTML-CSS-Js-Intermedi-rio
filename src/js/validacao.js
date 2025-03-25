@@ -2,8 +2,6 @@ const inputs = document.querySelectorAll('.inputs');
 const labels = document.querySelectorAll('.validacao');
 const btn = document.getElementById('btn');
 
-//Este poderia estar junto ao evento de botão, porém fiquei confuso com oque pedia o figma ai resolvi deixar ficando verde ao ir digitando.
-
 inputs.forEach(input => {
     input.addEventListener('change', () => {
         if (input.value.trim() !== "") {

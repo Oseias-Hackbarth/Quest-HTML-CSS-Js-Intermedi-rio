@@ -1,0 +1,29 @@
+@media(max-width: 770px) {
+    .principal {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formulario {
+        margin: 20px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 350px) {
+    .formulario {
+        width: 100%;
+    }
+
+    .meubtn {
+        padding: 10px;
+    }
+
+    .info {
+        width: 100%;
+    }
+}
