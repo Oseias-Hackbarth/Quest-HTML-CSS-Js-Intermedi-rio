@@ -15,15 +15,21 @@
 }
 
 @media (max-width: 350px) {
-    .formulario {
+    .principal {
         width: 100%;
+    }
+
+    .formulario {
+        width: 250px;
+    }
+
+    .info {
+        width: 250px;
     }
 
     .meubtn {
         padding: 10px;
     }
 
-    .info {
-        width: 100%;
-    }
+
 }
